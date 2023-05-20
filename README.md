@@ -1,23 +1,42 @@
-# Health Calculator 
+# Health Calculator
 
-Proposed exercise 3.17 Chapter 3 from the book How to Program in Java by Paul Deitel.
-A health calculator that the user enters their data and it returns the calculation of maximum heart rate, target heart rate, BMI and also the user's BMI classification.
+Este projeto consiste em um Calculador de Saúde, proposto como exercício 3.17 do Capítulo 3 do livro "How to Program in Java" por Paul Deitel. O usuário insere seus dados e o programa retorna o cálculo da frequência cardíaca máxima, frequência cardíaca alvo, Índice de Massa Corporal (IMC) e também a classificação do IMC do usuário.
 
-(Computerization of health records) A health care issue discussed lately in news media
-communication is the computerization of health records. This possibility is being approached cautiously because of concerns
-concerns regarding the privacy and security of sensitive data, among other reasons. [We will discuss these concerns in exercises
-later.] The computerization of health records can make it easier for patients to share their health profiles and histories among
-several health professionals. This may improve the quality of medical care, help to avoid conflicts and wrong medication prescriptions.
-medicines, reduce outpatient costs and save lives. In this exercise, you will design a “starter” HealthProfile class for a
-person. Class attributes must include first name, last name, gender, date of birth (consisting of separate attributes for month, day
-and year of birth), height (in meters) and weight (in kilograms) of the person. Your class must have a constructor that receives this data.
-For each attribute, provide set and get methods. The class must also include methods that calculate and return the user's age in years,
-maximum heart rate range and target heart rate (see Exercise 3.16), plus body mass index (BMI; see
-Exercise 2.33). Write a Java application that requests the person's information, instantiate an object of the HealthProfile class to
-it and print the information from that object — including first name, last name, gender, date of birth, height and weight of the person ––, and
-then calculate and print age in years, BMI, maximum heart rate range and target heart rate. It must also display
-the graph of BMI values from Exercise 2.33
+## Sobre o projeto
+
+O tema abordado é a informatização de registros de saúde. Esse assunto tem sido discutido recentemente na mídia devido às preocupações com a privacidade e segurança de dados sensíveis, entre outras razões. A informatização dos registros de saúde pode facilitar o compartilhamento de perfis e históricos de saúde entre vários profissionais de saúde. Isso pode melhorar a qualidade do atendimento médico, ajudar a evitar conflitos e prescrições erradas de medicamentos, reduzir os custos ambulatoriais e salvar vidas.
+
+Neste exercício, foi criada uma classe "HealthProfile" para representar uma pessoa. Os atributos da classe incluem nome, sobrenome, gênero, data de nascimento (com atributos separados para mês, dia e ano), altura (em metros) e peso (em quilogramas) da pessoa. A classe possui um construtor que recebe esses dados. Para cada atributo, são fornecidos métodos de configuração e acesso. A classe também inclui métodos que calculam e retornam a idade em anos, a faixa de frequência cardíaca máxima e a frequência cardíaca alvo (conforme exercício 3.16), além do Índice de Massa Corporal (IMC, conforme exercício 2.33).
+
+A aplicação Java solicita as informações da pessoa, instancia um objeto da classe HealthProfile com esses dados e imprime as informações desse objeto, incluindo nome, sobrenome, gênero, data de nascimento, altura e peso da pessoa. Em seguida, são calculados e impressos a idade em anos, o IMC, a faixa de frequência cardíaca máxima e a frequência cardíaca alvo. Também é exibido o gráfico dos valores de IMC conforme o exercício 2.33.
+
+## Como executar o programa
+
+1. Certifique-se de ter o ambiente Java configurado corretamente em seu sistema.
+2. Baixe os arquivos do projeto para o seu computador.
+3. Abra o terminal ou prompt de comando e navegue até o diretório onde os arquivos estão localizados.
+4. Compile os arquivos Java utilizando o comando `javac` seguido do nome do arquivo principal:
+
+   ```
+   javac HealthCalculator.java
+   ```
+
+5. Execute o programa usando o comando `java` seguido do nome do arquivo principal:
+
+   ```
+   java HealthCalculator
+   ```
+
+6. Siga as instruções fornecidas pelo programa para inserir os dados pessoais e visualizar as informações de saúde.
+
+## Requisitos do sistema
+
+- Ambiente Java configurado corretamente.
+- Sistema operacional que suporte a execução de aplicativos Java.
+
+## Considerações finais
+
+Este projeto demonstra a aplicação de conceitos de programação Java para criar um Calculador de Saúde que pode ser utilizado para calcular informações úteis sobre uma pessoa, como a frequência cardíaca máxima, frequência cardí
 
 
-![image](https://user-images.githubusercontent.com/43473532/234329521-9882f596-a256-4169-aaf6-fe65729e3986.png)
 
